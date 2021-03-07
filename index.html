@@ -6,13 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zaid&CloseCurlyQuote;s Grand Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family:Helvetica;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(62, 52, 52, 0.6)), url("imgs/background1.jpg");
+        background-size:cover;
+        animation: fadeIn ease 3.5s;
+        -webkit-animation: fadeIn ease 3.5s;
+        -moz-animation: fadeIn ease 3.5s;
+        -o-animation: fadeIn ease 3.5s;
+        -ms-animation: fadeIn ease 3.5s;
+}
+  .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:80;
+  } 
+  .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 12px 27px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+        font-size:18px;
+  }
+  .hero-text button:hover {
+        background-color: #555;
+        color: white;
+  }
+  button {
+        border-radius:5em;
+  }
+    </style>
 </head>
     <body>
+        
         <div class="hero-text">
+            <img src="imgs/photo1stylized.jpg" alt="photo" style="max-width:80%;border-radius:2em;border:solid whitesmoke 1px;">
+            <br></br>
             <h1 style="font-size:60px;color:whitesmoke;">I'm Zaid</h1>
             <p style="font-size:20px;color:whitesmoke;">And I'm a Web Developer</p>
             <br></br>
             <button onclick="location.href='home.html'" type="button">About Me</button>
-                </div>
+        </div>
+        <footer style="font-weight:bold;color:rgb(172, 170, 170);display:block;bottom:3%;width:100%;position:fixed;text-align:center;">Copyright&copy; 2021</footer>
 </body>
 </html>
