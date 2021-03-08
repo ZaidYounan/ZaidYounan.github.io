@@ -7,24 +7,29 @@
   }
 
   .navbar-two {
-    position:fixed;
-    bottom:3%;
-    height:30px;
+    display:inline-block;
+    height:55px;
     width:100%;
     font-size:8px;
     text-align:center;
-    background-color:whitesmoke;
+    background-color: #e8e7cf;
+    padding-bottom:10px;
 }
 
   ul {
     list-style-type: none;
     padding: 0px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:0;
+    width:100%;
 
   }
 
   li {
-  float: left;
-  font-size:18px; 
+    float: left;
+    font-size:18px;
+    width:24%;
   }
 
   li a {
@@ -37,8 +42,8 @@
   }
   
   a:hover:not(.active){
-padding: 15px;  
-color:black;
+    padding: 15px;  
+    color:black;
   }
   .active {
     border-bottom:solid black 2px;
