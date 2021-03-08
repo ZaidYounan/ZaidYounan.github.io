@@ -27,14 +27,14 @@
         input, label, textarea {
             padding:10px;
             border-radius:0.8em;
-            color:rgb(104, 104, 214);
-            -webkit-text-stroke-color:rgb(226, 218, 180);
-            -webkit-text-stroke-width: 0.7px; 
+        }
+        label {
+            color:rgb(255, 255, 255);
         }
         section {
             display:flex;
             justify-content:center;
-            background-image:url(imgs/contact-background2.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url("imgs/contact-background2.jpg");
             background-size:cover;
             height:100%;
         }
@@ -51,11 +51,16 @@
         }
         
         input[type="submit"]:hover {
-            background: rgb(226, 218, 180);
+            background: #e8e7cf;
             color: rgb(104, 104, 214);
         }
         input[type="submit"] {
-            background: rgb(104, 104, 214)
+            background: rgb(104, 104, 214);
+            color: #e8e7cf;
+            font-size:16px;
+        }
+        textarea {
+            font-family:Raleway;
         }
 
     </style>
