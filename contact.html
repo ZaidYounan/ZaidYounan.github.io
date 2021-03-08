@@ -7,9 +7,57 @@
     <title>Contact me</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        h1 {
-            font-family:Raleway;
+        body, html {
+            font-family: Raleway;
+            margin:0;
+            height:100%;
         }
+        form {
+            display:flex;
+            flex-direction:column;
+            width:70%;
+            padding:10px;   
+            margin:10px;
+            margin-right:15px;
+            box-sizing:border-box;
+            border-radius:0.5em;
+            font-size:20px;
+            font-weight:bolder;
+        }
+        input, label, textarea {
+            padding:10px;
+            border-radius:0.8em;
+            color:rgb(104, 104, 214);
+            -webkit-text-stroke-color:rgb(226, 218, 180);
+            -webkit-text-stroke-width: 0.7px; 
+        }
+        section {
+            display:flex;
+            justify-content:center;
+            background-image:url(imgs/contact-background2.jpg);
+            background-size:cover;
+            height:100%;
+        }
+        h1 {
+            writing-mode:vertical-rl;
+            text-orientation:sideways;
+            padding-top:10px;
+            font-weight:bolder;
+            color:rgb(104, 104, 214);
+        }
+        input:focus, #message:focus {
+            outline: none;
+            border: solid rgb(104, 104, 214) 2.5px;
+        }
+        
+        input[type="submit"]:hover {
+            background: rgb(226, 218, 180);
+            color: rgb(104, 104, 214);
+        }
+        input[type="submit"] {
+            background: rgb(104, 104, 214)
+        }
+
     </style>
 </head>
 <body>
@@ -20,8 +68,20 @@
             <li><a href="resume.html">Resume</a></li>
             <li><a class="active" href="contact.html">Contact</a></li>
         </ul> 
-    </nav>   
-    <h1>Contact me</h1>
-    
+    </nav>
+    <section>
+        <h1>C O N T A C T &nbsp;&nbsp;M E</h1>
+        <form class="contactform" action="mailto:" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name...">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email...">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something..." style="height: 200px;"> 
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <h1>C O N T A C T &nbsp;&nbsp;M E</h1>
+    </section>
 </body>
 </html>

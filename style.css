@@ -2,7 +2,7 @@
     overflow: hidden;
     display:flex;
     justify-content:center;
-    background-color:whitesmoke;
+    background-color:#e8e7cf;
     border-radius:0.15em;
   }
 
@@ -33,16 +33,15 @@
     text-align: center;
     padding: 7px 9px;
     text-decoration: none;
-    border-radius:0.15em;
     margin:2px;
   }
   
   a:hover:not(.active){
-    border:solid black 1px;
-    color:black;
+padding: 15px;  
+color:black;
   }
   .active {
-    background-color: #526966;
+    border-bottom:solid black 2px;
   }
 
     @keyframes fadeIn {
