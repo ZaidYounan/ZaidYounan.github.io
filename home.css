@@ -8,16 +8,27 @@ body, html {
 section {
     margin-left:5%;
 }
+
 img {
-    width:40%;
     border-radius:2em;
+    width:90%;
 }
+
+@media only screen and (min-width:600px) {
+    img {
+        width:40%;
+    }
+}
+
 article, p {
     display:block;
 }
-article, img {
-    float:left;
+@media only screen and (min-width:600px) {
+    article, img {
+        float:left;
+    }
 }
+
 img, h2, p {
     padding:20px;
 }

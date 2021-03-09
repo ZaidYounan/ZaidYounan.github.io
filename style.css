@@ -40,7 +40,6 @@
     text-decoration: none;
     margin:2px;
   }
-  
   a:hover:not(.active){
     padding: 15px;  
     color:black;
@@ -72,8 +71,8 @@
         @-ms-keyframes fadeIn {
         0% {opacity:0;}
         100% {opacity:1;}
-        
         }
+
 
 
 
