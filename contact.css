@@ -36,6 +36,11 @@
             font-weight:bolder;
             color:rgb(104, 104, 214);
         }
+        @media only screen and (max-width:359px) {
+            h1 {
+                margin:0;
+            }
+        }
         input:focus, #message:focus {
             outline: none;
             border: solid rgb(104, 104, 214) 2.5px;
@@ -54,10 +59,7 @@
             font-family:Raleway;
             margin-bottom:5%;
         }
-        footer {
-            position:absolute;
-            bottom:-7%;
-        }
+
         #github {
             content:url("imgs/github1.png");
             width:15%;
@@ -85,4 +87,14 @@
         div {
             text-align:center;
             margin-top:20%; 
+        }
+        
+        footer {
+            font-weight:bold;
+            font-size:16px;
+            color:rgb(139, 135, 135);
+            display:block;
+            width:100%;
+            text-align:center;
+            bottom:2%;
         }
