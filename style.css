@@ -29,7 +29,7 @@
   li {
     float: left;
     font-size:18px;
-    width:24%;
+    width:30%;
   }
 
   li a {
@@ -40,8 +40,12 @@
     text-decoration: none;
     margin:2px;
   }
+  a {
+    white-space:nowrap;
+  }
+  
   a:hover:not(.active){
-    padding: 15px;  
+    padding:2%;  
     color:black;
   }
   .active {

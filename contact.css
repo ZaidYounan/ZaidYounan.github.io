@@ -2,6 +2,7 @@
             font-family: Raleway;
             margin:0;
             height:100%;
+            min-height:100%;
         }
         form {
             display:flex;
@@ -25,7 +26,7 @@
         section {
             display:flex;
             justify-content:center;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url("imgs/contact-background2.jpg");
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("imgs/contact-background2.jpg");
             background-size:cover;
             height:100%;
         }
@@ -35,6 +36,8 @@
             padding-top:35px;
             font-weight:bolder;
             color:rgb(104, 104, 214);
+            display:block;
+            margin:0;
         }
         @media only screen and (max-width:359px) {
             h1 {
@@ -58,6 +61,7 @@
         textarea {
             font-family:Raleway;
             margin-bottom:5%;
+            height:15%;
         }
 
         #github {
@@ -67,14 +71,16 @@
             margin-top:5%;
             border-radius:0.8em;
             display:inline-block;
+            box-sizing:border-box;
         }
         #linkedin {
-            content:url("imgs/linkedin1.png");
+            content:url("imgs/linkedin1.jpeg");
             width:15%;
             margin-left:5%;
             margin-top:5%;
             border-radius:0.8em;
             display:inline-block;
+            box-sizing:border-box;
         }
         #instagram {
             content:url("imgs/instagram1.png");
@@ -83,6 +89,7 @@
             margin-top:5%;
             border-radius:0.8em;
             display:inline-block;
+            box-sizing:border-box;
         }
         div {
             text-align:center;
