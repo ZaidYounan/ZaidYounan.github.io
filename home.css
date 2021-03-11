@@ -40,3 +40,13 @@ h1 {
     text-align:center;
     font-size:30px;
 }
+
+footer {
+   font-weight:bold;
+   margin-bottom:5px;
+   color:#e8e7cf;
+   display:inline-block;
+   bottom:2%;
+   width:100%;
+   text-align:center;
+}

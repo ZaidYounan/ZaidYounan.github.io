@@ -36,3 +36,17 @@ body, html {
 button {
     border-radius:5em;
 }
+h1 {
+    font-size:60px;
+    color:whitesmoke;
+}
+p {
+    font-size:20px;
+    color:whitesmoke;
+}
+
+img {
+    max-width:65%;
+    border-radius:2em;
+    border:solid whitesmoke 1px;
+}

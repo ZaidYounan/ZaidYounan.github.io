@@ -7,16 +7,27 @@ body, html {
 }
 h1, h2 {
     margin-left:1%;
+    text-align:center;
+}
+h1 {
+    margin-bottom:25px;
+
+}
+h2 {
+    font-weight:lighter;
+}
+span {
+    border-bottom: solid whitesmoke 1px;    
 }
 div {
-    margin-left:0.5%;
+    margin-left:0;
     text-align:center;
     margin-bottom:5px;
-    border-bottom:solid whitesmoke 1px;
-}
-section {
-    margin-left:3%;
-    padding:5px;
+    border-bottom:solid whitesmoke 1px;}
+
+    section {
+    margin-left:0%;
+    padding:0;
     color:whitesmoke;
 }
 @media only screen and (min-width:1300px) {
@@ -33,7 +44,7 @@ aside {
     width:15%;
     margin-right:5%;
     margin-top:5%;
-    border-radius:0.5em;
+    border-radius:0.8em;
 }
 .email {
     content:url("imgs/email1.jpeg");
@@ -41,4 +52,13 @@ aside {
     margin-left:5%;
     margin-top:5%;
     border-radius:0.8em;
+}
+
+footer {
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    padding-top:3%;
+    display:block;
+    width:100%;
+    text-align:center;
 }

@@ -22,6 +22,10 @@
                 float:left;
             }
         }
+        h1 {
+            text-align:center;
+            font-style:italic;
+        }
 
         @media only screen and (min-width:600px) {
             img {
@@ -44,4 +48,14 @@
         time {
             display:block;
             text-align:right;
+        }
+
+        footer {
+            font-weight:bold;
+            margin-bottom:5px;
+            color:#e8e7cf;
+            display:inline-block;
+            bottom:2%;
+            width:100%;
+            text-align:center;
         }
