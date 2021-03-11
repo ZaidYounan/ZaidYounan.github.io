@@ -57,12 +57,12 @@
             background: rgb(104, 104, 214);
             color: #e8e7cf;
             font-size:16px;
+            margin-top:5%;
 
         }
         textarea {
             font-family:Raleway;
-            margin-bottom:5%;
-            height:15%;
+            height:25%;
         }
 
         #github {
