@@ -1,5 +1,4 @@
         body, html {
-            font-family: Raleway;
             margin:0;
             height:100%;
             min-height:100%;
@@ -34,6 +33,7 @@
             writing-mode:vertical-rl;
             text-orientation:sideways;
             padding-top:35px;
+            font-family: Roboto;
             font-weight:bolder;
             color:rgb(104, 104, 214);
             display:block;
@@ -43,6 +43,11 @@
             h1 {
                 margin:0;
             }
+        }
+
+        form {
+            display:flex;
+            justify-content:center;
         }
         input:focus, #message:focus {
             outline: none;
@@ -57,9 +62,10 @@
             background: rgb(104, 104, 214);
             color: #e8e7cf;
             font-size:16px;
-            margin-top:5%;
-
+            margin-top:3%;
+            width:40%;
         }
+
         textarea {
             font-family:Raleway;
             height:25%;

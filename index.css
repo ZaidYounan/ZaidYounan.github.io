@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family:Helvetica;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(62, 52, 52, 0.6)), url("imgs/background1.jpg");
     background-size:cover;
     animation: fadeIn ease 3.5s;

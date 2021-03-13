@@ -1,17 +1,16 @@
 body, html {
-    font-family: Raleway;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(27, 23, 22, 0.5)), url("imgs/background5.jpg");
     background-size:cover;
     margin:0;
     height:100%;
 }
 h1, h2 {
-    margin-left:1%;
+    margin-top:3%;
     text-align:center;
 }
 h1 {
     margin-bottom:25px;
-
+    font-family:Roboto;
 }
 h2 {
     font-weight:lighter;
