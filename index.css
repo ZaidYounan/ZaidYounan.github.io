@@ -9,6 +9,10 @@ body, html {
     -o-animation: fadeIn ease 3.5s;
     -ms-animation: fadeIn ease 3.5s;
 }
+
+/* Re-applied the fade animation here, just to slow it down for the opening page */
+/* The rest of the styling is both to position the image, text and button and for typography purposes */
+
 .hero-text {
     text-align: center;
     position: absolute;

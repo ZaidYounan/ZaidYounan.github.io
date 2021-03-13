@@ -12,7 +12,10 @@ img {
     border-radius:2em;
     width:90%;
 }
-
+/* The following breakpoints are to make sure that the text floats 
+around the images only when the screen is larger, so that smaller 
+screens can still see an enlarged picture with text underneath - rather
+than a tiny one with text wrapped around it. */
 @media only screen and (min-width:600px) {
     img {
         width:40%;
