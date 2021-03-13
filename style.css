@@ -1,105 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,800&family=Roboto:wght@300;500;700&display=swap');
-  body, html {
-    font-family: Raleway, Helvetica, sans-serif;
-  }
+body, html {
+  font-family: Raleway, Helvetica, sans-serif;
+}
 
-  /* Custom fonts that will be used throughout the website */
+/* Custom fonts that will be used throughout the website */
 
-  body {
-    animation: fadeIn ease 2.0s;
-    -webkit-animation: fadeIn ease 2.0s;
-    -moz-animation: fadeIn ease 2.0s;
-    -o-animation: fadeIn ease 2.0s;
-    -ms-animation: fadeIn ease 2.0s;
-  }
+body {
+  animation: fadeIn ease 2.0s;
+  -webkit-animation: fadeIn ease 2.0s;
+  -moz-animation: fadeIn ease 2.0s;
+  -o-animation: fadeIn ease 2.0s;
+  -ms-animation: fadeIn ease 2.0s;
+}
 
-  /* A fade animation that applies between page transitions.  */
+/* A fade animation that applies between page transitions.  */
 
-  .navbar {
-    overflow: hidden;
-    display:flex;
-    justify-content:center;
-    background-color:#eeedd6;
-    border-radius:0.15em;
-  }
+.navbar {
+  overflow: hidden;
+  display:flex;
+  justify-content:center;
+  background-color:#eeedd6;
+  border-radius:0.15em;
+}
 
- /* Styling for the navbar */
+/* Styling for the navbar */
 
-  .navbar-two {
-    display:inline-block;
-    height:55px;
-    width:100%;
-    font-size:8px;
-    text-align:center;
-    background-color: #eeedd6;
-    padding-bottom:10px;
+.navbar-two {
+  display:inline-block;
+  height:55px;
+  width:100%;
+  font-size:8px;
+  text-align:center;
+  background-color: #eeedd6;
+  padding-bottom:10px;
 }
 
 /* Styling for the second navbar in home.html*/
 
-  ul {
-    list-style-type: none;
-    padding: 0px;
-    display:flex;
-    justify-content:center;
-    margin-bottom:0;
-    width:100%;
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display:flex;
+  justify-content:center;
+  margin-bottom:0;
+  width:100%;
 
-  }
+}
 
-  li {
-    float: left;
-    font-size:18px;
-    width:30%;
-  }
+li {
+  float: left;
+  font-size:18px;
+  width:30%;
+}
 
-  li a {
-    display:block;
-    color: #222;
-    text-align: center;
-    text-decoration: none;
-    margin:2px;
-  }
-  a {
-    white-space:nowrap;
-  }
+li a {
+  display:block;
+  color: #222;
+  text-align: center;
+  text-decoration: none;
+  margin:2px;
+}
+a {
+  white-space:nowrap;
+}
 
-  a:hover:not(.active){
-    padding:2%;  
-    color:black;
+a:hover:not(.active){
+  padding:2%;  
+  color:black;
+}
+.active {
+  border-bottom:solid black 2px;
+}
+/* Imported code for the fadein animation */
+
+  @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
   }
-  .active {
-    border-bottom:solid black 2px;
-  }
-  /* Imported code for the fadein animation */
+      
+      @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+
+
+
+
   
-    @keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-    }
-        
-        @-moz-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-webkit-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-o-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-ms-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-
-
-
-
-    
